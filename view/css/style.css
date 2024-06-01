@@ -1,0 +1,802 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+}
+
+.boxcenter {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.mr {
+    margin-right: 2%;
+}
+
+.menu {
+    background-color: #f08eb5;
+    border-radius: 5px;
+}
+
+.boxtile {
+    color: #333;
+    padding: 10px;
+    background-color: #8ACDD7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #8ACDD7 solid;
+}
+
+.boxcontent {
+    border-left: 1px #8ACDD7 solid;
+    border-right: 1px #8ACDD7 solid;
+    border-bottom: 1px #8ACDD7 solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+
+}
+
+.boxsp4 {
+    padding: 5px;
+}
+
+.boxsp4 .img,
+.boxsp .img {
+    width: 100%;
+    min-height: 230px;
+    text-align: center;
+}
+
+.boxsp4 p,
+.boxsp p {
+    font-size: 0.9vw;
+}
+
+.boxsp4 a,
+.boxsp a {
+    font-size: 1vw;
+    text-decoration: none;
+    color: #000;
+}
+
+.mx {
+    min-height: 40px;
+}
+
+.menu ul {
+    padding: 0 10px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 10px;
+}
+
+.menu ul li a {
+    color: #fdfdfd;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+.menu ul li a:hover {
+    color: #ffffff;
+    font-size: 0.8vw;
+}
+
+
+.formbinhluan input[type="text"] {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.formcontent input[type="text"] {
+    width: 100%;
+    border: 1px #8ACDD7 solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formlienhe input[type="text"] {
+    width: 40%;
+    border: 1px #000000 solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.formlienhe input[type="submit"],
+.formbinhluan input[type="submit"] {
+    width: 50px;
+    border: 1px #373737 solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.formcontent {
+    margin-bottom: 20px;
+}
+
+
+.search input[type="text"] {
+    background-color: #fff;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"] {
+    background-color: #31c8e0;
+    border: 1px #8ACDD7 solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formlienhe input[type="submit"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover {
+    background-color: #076775;
+}
+
+/* Admin */
+.ad h1 {
+    font-size: 5vw;
+    color: #090;
+    text-align: center;
+}
+
+.quaylai {
+    float: right;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.quaylai a {
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+.quaylai a:hover {
+    color: #f72424;
+
+}
+
+.headeradmin {
+    background-color: #e74686;
+    border: 1px #ccc solid;
+    color: #F9F9E0;
+    border-radius: 5px;
+    padding: 0px 20px;
+
+}
+
+.headeradmin h1 {
+    font-size: 3vw;
+}
+
+.formtitle {
+    background-color: #8ACDD7;
+    border: 1px #ccc solid;
+    padding: 0px 20px;
+    color: #0a0a0a;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.formtitle h1 {
+    font-size: 1vw;
+
+}
+.error p{
+    color: red;
+}
+
+/* danh sách  */
+.formdsloai table {
+    width: 100%;
+    /* bỏ khoản trống giữa có boder */
+    border-collapse: collapse;
+    text-align: center;
+
+
+}
+
+.demo {
+    margin-top: 10px;
+}
+
+.formdsloai table th {
+
+    padding: 10px;
+    background-color: #8ACDD7;
+}
+
+.formdsloai table td {
+    padding: 10px 20px;
+    border: 1px #8ACDD7 solid;
+}
+
+/* giao diện người dùng */
+.mennu {
+    display: flex;
+    height: 80px;
+    background-color: floralwhite;
+    border-bottom: 1px black solid;
+    width: 100%;
+    text-align: justify;
+    padding-left: 60px;
+
+
+
+}
+.bl h1{
+font-size: 0.7vw;
+}
+.bl{
+
+    margin: 10px 0px;
+}
+
+.logo img {
+    width: 75px;
+
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.menu1 {
+    margin-top: 20px;
+
+}
+
+.menu1 ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.menu1 ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8vw;
+    font-weight: 500;
+}
+
+.menu1 ul li a:hover {
+    color: yellow;
+    font-weight: 600;
+}
+
+
+.search {
+    display: inline;
+    margin: 25px 20px;
+}
+
+.search input[type="submit"] {
+    background-color: rgb(222, 13, 13);
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.search input[type="search"] {
+    width: 200px;
+}
+
+.taikhoan {
+    margin-top: 32px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.taikhoan img {
+    padding-bottom: 15px;
+}
+
+.taikhoan a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.giohang {
+    margin: 15px 30px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* sản phẩm  */
+.tieude h1 {
+    font-size: 2vw;
+    background-color: #fc0000;
+    padding: 10px;
+    text-align: center;
+}
+
+.tieude1 h1 {
+    font-size: 2vw;
+    padding: 10px;
+    text-align: center;
+    color: #f72424;
+}
+
+.sale1 {
+    background-color: #ffff;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    border-radius: 10px;
+
+
+}
+
+.sale2 {
+    background-color: #f72424;
+    margin-left: 20px;
+    font-size: 1.5vw;
+    width: 70px;
+    height: 45px;
+    margin-top: 20px;
+    padding-top: 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.xemthem {
+    text-align: center;
+    background-color: black;
+    margin-left: 430px;
+    padding: 20px;
+    width: 200px;
+}
+
+.xemthem a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1vw;
+}
+
+.sp {
+    text-align: center;
+}
+
+.anhsp {
+    padding: 5px;
+}
+
+.anhsp img {
+    width: 100%;
+}
+
+.banner2 {
+    text-align: center;
+    display: flex;
+}
+
+.banner2 img {
+    width: 100%;
+    padding: 20px;
+}
+
+/* footer */
+.footer {
+    display: inline-flex;
+    text-align: justify;
+    background-color: #000000;
+    color: #F9F9E0;
+    padding: 20px;
+}
+
+.footer1 {
+    background-color: #e74686;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.boxfooter {
+    float: left;
+    margin-left: 50px;
+}
+
+/* cua hang */
+.menungang {
+    background-color: #000;
+    margin: 0px;
+    width: 100%;
+
+}
+
+.menungang ul {
+    display: inline-flex;
+    list-style-type: none;
+
+
+}
+
+.menungang ul li {
+    padding-left: 40px;
+}
+
+.menungang ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1vw;
+
+}
+
+.menungang ul li a:hover {
+    text-decoration: underline;
+    color: yellow;
+    font-size: 1.02vw;
+}
+
+
+
+.formbutton input[type="button"] {
+    background-color: #f72424;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1vw;
+}
+
+.boxtrai {
+    width: 20%;
+}
+
+.menudoc ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menudoc ul li {
+    padding: 10px 10px;
+    background-color: #ffffff;
+}
+
+.menudoc ul li a {
+    color: #282222;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+.menudoc ul li a:hover {
+    color: #ccc;
+}
+
+.content {
+    display: flex;
+
+}
+
+.boxphai {
+    margin: 10px;
+    width: 78%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.boxsp {
+    padding: px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+.boxsp img img {
+    width: 100%;
+}
+
+.boxsp4 p del,
+.boxsp p del {
+    color: #5a5555;
+    font-size: 1.2vw;
+
+}
+
+.boxsp4 p,
+.boxsp p {
+    color: #f72424;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+/* cửa hàng */
+.phai {
+    width: 32%;
+}
+
+.phai img {
+    width: 100%;
+    padding: 10px;
+}
+
+.trai {
+    width: 60%;
+    margin-left: 8%;
+}
+
+.trai h1 {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.trai p {
+    font-size: 1vw;
+}
+
+.sale {
+    background-color: #f72424;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+
+
+}
+
+.gia {
+    display: flex;
+}
+
+.gia p {
+    font-size: 1.7vw;
+    margin-left: 20px;
+
+}
+
+.giacu {
+    font-size: 1.7vw;
+    color: #7e7979;
+}
+
+.chitiet p {
+    padding: 10px;
+    font-size: 1vw;
+    height: 200px;
+
+}
+
+.sl input {
+    width: 50px;
+    display: inline-flex;
+}
+
+.sl label {
+    font-size: 1vw;
+}
+
+.trai input[type="submit"] {
+    background-color: #f72424;
+    border: 1px #ccc solid;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 2vw;
+}
+
+.mota h1 {
+    font-size: 2vw;
+
+}
+
+.mota p {
+    font-size: 1vw;
+    float: left;
+}
+
+.spcl {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.cungloai {
+
+    text-align: center;
+
+}
+
+.cungloai h1 {
+    font-size: 3vw;
+    color: #f72424;
+}
+
+.formtaikhoan {
+    text-align: center;
+    padding: 50px;
+    line-height: 150%;
+}
+
+.formtaikhoan h1 {
+    font-size: 2vw;
+}
+
+.formtaikhoan label {
+    font-size: 1.5vw;
+    float: left;
+    margin: 20px 0px;
+}
+
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="email"],
+.formtaikhoan input[type="password"] {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.formtaikhoan input[type="checkbox"] {
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.formtaikhoan input[type="submit"],
+.formtaikhoan input[type="reset"] {
+    background-color: #ff0000;
+    border: 1px #ccc solid;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 1.5vw;
+}
+
+.formtaikhoan input[type="submit"]:hover {
+    background-color: #ccc;
+}
+
+.formtaikhoan li a {
+    color: teal;
+    text-decoration: none;
+}
+
+.formtaikhoan li a:hover {
+    color: #660;
+    text-decoration: underline;
+}
+
+.thongtin h1 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.thongtin p {
+    font-size: 1vw;
+}
+
+.anhusser {
+    text-align: center;
+
+}
+
+.anhusser img {
+    width: 100px;
+    height: 100px;
+}
+
+.anhusser p {
+    font-size: 1.5vw;
+    color: pink;
+}
+
+.textusser li a {
+    font-size: 1vw;
+}
+
+.textusser li a:hover {
+    color: #f72424;
+}
+
+.textusser li {
+    margin: 20px 10px;
+}
+
+.saletong {
+    padding: 10px;
+    text-align: center;
+    background-color: #f72424;
+}
+
+.spsal {
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.spsal h1 {
+    color: #ffffff;
+    font-size: 3VW;
+}
+
+.formcontentt {
+    border-radius: 5px;
+   border: 1px solid black;
+   height: auto;
+}
+
+.titel {
+    font-size: 1.5vw;
+    background-color: #282222;
+    color: #eee;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.formbinhluan {
+    margin: 20px auto;
+}
+
+.formbinhluan input {
+    margin: 5px 0px;
+}
+.gioithieu h1{
+     font-size: 3vw;
+     color: red;
+     text-align: center;
+}
+.noidunggt{
+    display: inline-flex;
+}
+.noidunggt img{
+    width: 400px;
+    height: 400px;
+}
+.nd1{
+    margin-left: 50px;
+}
+.nd1 p{
+    
+    font-size: 1.5vw;
+}
+/* lienhe */
+.lienhe{
+    display: inline-flex;
+    padding: 20px;
+}
+.formlienhe h1{
+font-size: 1.5vw;
+}
+.formlienhe label{
+    font-size: 1vw;
+    
+}
+.modau h3{
+    font-size: 1.5vw;
+}
+
+
